@@ -2,6 +2,10 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, TextInput, Touchable, TouchableOpacity, View } from 'react-native';
 
+function enviar(){
+  alert('Você clicou no botão!');
+}
+
 export default function App() {
   return (
     <View style={styles.container}>
