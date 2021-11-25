@@ -11,7 +11,7 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.titulo}>Segundo aplicativo</Text>
       <TextInput style={styles.campo}></TextInput>
-      <TouchableOpacity style={styles.botao}>
+      <TouchableOpacity style={styles.botao} onPress={enviar}>
         <text style={styles.textobotao}>mostrar</text>
       </TouchableOpacity>
       <StatusBar style="auto" />
